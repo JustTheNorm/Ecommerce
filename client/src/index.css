@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel&family=Fauna+One&family=Montserrat:ital,wght@0,200;1,200&family=Poppins:wght@400;500;600&family=Silkscreen&family=Source+Sans+Pro:wght@400;600;700&family=Source+Serif+Pro:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  
+}
+
+body{
+  margin: 0;
+  padding:0;
+}
+
+.app{
+  margin:auto;
+
+}
