@@ -2827,7 +2827,7 @@
   "resolved" "https://registry.npmjs.org/bcryptjs/-/bcryptjs-2.4.3.tgz"
   "version" "2.4.3"
 
-"better-sqlite3@8.0.1":
+"better-sqlite3@^8.0.1":
   "integrity" "sha512-JhTZjpyapA1icCEjIZB4TSSgkGdFgpWZA2Wszg7Cf4JwJwKQmbvuNnJBeR+EYG/Z29OXvR4G//Rbg31BW/Z7Yg=="
   "resolved" "https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-8.0.1.tgz"
   "version" "8.0.1"
