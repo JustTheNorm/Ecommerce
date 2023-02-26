@@ -21,7 +21,7 @@ const ShoppingList = () => {
 
   async function getItems() {
     const items = await fetch(
-      "http://ecommerce-52pf.onrender.com/api/items?populate=image",
+      "https://ecommerce-52pf.onrender.com/api/items?populate=image",
       { method: "GET" }
     );
     const itemsJson = await items.json();
