@@ -68,7 +68,7 @@ const CartMenu = () => {
                       alt={item?.name}
                       width="123px"
                       height="164px"
-                      src={`http://ecommerce-52pf.onrender${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
+                      src={`http://ecommerce-52pf.onrender.com${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
                     />
                   </Box>
                   <Box flex="1 1 60%">

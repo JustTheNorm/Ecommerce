@@ -25,7 +25,7 @@ const ItemDetails = () => {
 
   async function getItem() {
     const item = await fetch(
-      `http://ecommerce-52pf.onrender/api/items/${itemId}?populate=image`,
+      `http://ecommerce-52pf.onrender.com/api/items/${itemId}?populate=image`,
       {
         method: "GET",
       }
@@ -36,7 +36,7 @@ const ItemDetails = () => {
 
   async function getItems() {
     const items = await fetch(
-      `http://ecommerce-52pf.onrender/api/items?populate=image`,
+      `http://ecommerce-52pf.onrender.com/api/items?populate=image`,
       {
         method: "GET",
       }
@@ -59,7 +59,7 @@ const ItemDetails = () => {
             alt={item?.name}
             width="100%"
             height="100%"
-            src={`http://ecommerce-52pf.onrender${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
+            src={`http://ecommerce-52pf.onrender.com${item?.attributes?.image?.data?.attributes?.formats?.medium?.url}`}
             style={{ objectFit: "contain" }}
           />
         </Box>

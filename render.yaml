@@ -4,7 +4,7 @@ services:
     env: node
     plan: starter
     buildCommand: yarn install && npm run build
-    startCommand: rsync -a public/ /server/public/ && npm start
+    startCommand: rsync -a public/ /data/public/ && npm start
     healthCheckPath: /_health
     autoDeploy: false
     disk:
@@ -24,5 +24,3 @@ services:
         generateValue: true
       - key: APP_KEYS
         generateValue: true
-
-        
